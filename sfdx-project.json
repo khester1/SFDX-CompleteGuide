@@ -1,0 +1,24 @@
+{
+    "packageDirectories": [
+        {
+            "path": "firstCoursePackage",
+            "default": true,
+            "package": "FirstCoursePackage_k",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "SecondCoursePackage",
+            "default": false
+        }
+    ],
+    "name": "SFDX-Complete Guide",
+    "namespace": "SFDX_Course_K",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "FirstCoursePackage_k": "0Ho3h0000008OlBCAU",
+        "FirstCoursePackage_k@0.1.0-1": "04t3h000004VVYmAAO",
+        "FirstCoursePackage_k@0.1.0-2": "04t3h000004VVYrAAO"
+    }
+}

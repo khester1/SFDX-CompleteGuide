@@ -1,0 +1,22 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef1"
+            },
+            "LastName": "test1",
+            "Phone": "111-111-11111",
+            "AccountId": "@AccountRef2"
+        },
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef2"
+            },
+            "LastName": "test",
+            "Phone": "222-222-2222",
+            "AccountId": "@AccountRef3"
+        }
+    ]
+}
