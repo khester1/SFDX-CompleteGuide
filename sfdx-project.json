@@ -8,7 +8,7 @@
             "versionNumber": "0.1.0.NEXT"
         },
         {
-            "path": "SecondCoursePackage",
+            "path": "secondCoursePackage",
             "default": false
         }
     ],
