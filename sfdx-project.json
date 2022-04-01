@@ -5,11 +5,25 @@
             "default": true,
             "package": "FirstCoursePackage_k",
             "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
+            "versionNumber": "0.1.0.NEXT",
+            "definitionFile": "config/project-scratch-def.json"
         },
         {
             "path": "secondCoursePackage",
             "default": false
+        },
+        {
+            "path": "firstCoursePackage",
+            "package": "firstCoursePackage32822",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
+            "dependencies" : [
+                {
+                    "package" : "firstCoursePackage",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
         }
     ],
     "name": "SFDX-Complete Guide",
@@ -19,6 +33,8 @@
     "packageAliases": {
         "FirstCoursePackage_k": "0Ho3h0000008OlBCAU",
         "FirstCoursePackage_k@0.1.0-1": "04t3h000004VVYmAAO",
-        "FirstCoursePackage_k@0.1.0-2": "04t3h000004VVYrAAO"
+        "FirstCoursePackage_k@0.1.0-2": "04t3h000004VVYrAAO",
+        "firstCoursePackage32822": "0Ho3h000000KzUPCA0",
+        "firstCoursePackage32822@0.1.0-1": "04t3h000004bhq5AAA"
     }
 }
